@@ -1,0 +1,82 @@
+[
+  {
+    "front": "What is the purpose of the @SpringBootApplication annotation?",
+    "back": "It combines @Configuration, @EnableAutoConfiguration, and @ComponentScan to set up a Spring Boot application with sensible defaults."
+  },
+  {
+    "front": "What does the @Component annotation do?",
+    "back": "Marks a class as a Spring-managed component and registers it in the Spring container during component scanning."
+  },
+  {
+    "front": "What is the role of the @Controller annotation?",
+    "back": "Specialized @Component for handling HTTP requests in the MVC architecture."
+  },
+  {
+    "front": "What is the @Service annotation used for?",
+    "back": "Marks a class as a service layer component, typically containing business logic."
+  },
+  {
+    "front": "What does the @Repository annotation indicate?",
+    "back": "Marks a class as a data access layer component and provides exception translation for database operations."
+  },
+  {
+    "front": "How is the @Autowired annotation used?",
+    "back": "Injects dependencies automatically into a Spring-managed bean."
+  },
+  {
+    "front": "What is the purpose of the @Qualifier annotation?",
+    "back": "Specifies which bean to inject when multiple candidates exist."
+  },
+  {
+    "front": "What does the @Primary annotation do?",
+    "back": "Specifies the default bean to use when multiple candidates are available for dependency injection."
+  },
+  {
+    "front": "What does the @Configuration annotation do?",
+    "back": "Marks a class as a source of Spring bean definitions."
+  },
+  {
+    "front": "How is the @Bean annotation used?",
+    "back": "Defines a Spring bean explicitly in a configuration class."
+  },
+  {
+    "front": "What is the @RestController annotation?",
+    "back": "Combines @Controller and @ResponseBody to create RESTful web service endpoints."
+  },
+  {
+    "front": "What is the purpose of the @RequestMapping annotation?",
+    "back": "Maps HTTP requests to handler methods or classes, with customizable URLs and HTTP methods."
+  },
+  {
+    "front": "What are @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, and @PatchMapping?",
+    "back": "Shortcuts for @RequestMapping that map to specific HTTP methods like GET, POST, PUT, DELETE, and PATCH."
+  },
+  {
+    "front": "What is the purpose of @RequestParam, @PathVariable, and @RequestBody?",
+    "back": "They bind request parameters, path variables, and request bodies to method arguments in controllers."
+  },
+  {
+    "front": "What does the @Valid annotation do?",
+    "back": "Triggers validation for method parameters or fields in a class using Bean Validation."
+  },
+  {
+    "front": "What is the role of @Entity in Spring Boot?",
+    "back": "Marks a class as a JPA entity for database persistence."
+  },
+  {
+    "front": "What is the purpose of @Id and @GeneratedValue annotations?",
+    "back": "Define the primary key of a JPA entity and its generation strategy."
+  },
+  {
+    "front": "What does the @Transactional annotation do?",
+    "back": "Specifies that a method or class should be executed within a transaction."
+  },
+  {
+    "front": "What is the purpose of @PreAuthorize and @PostAuthorize?",
+    "back": "Apply method-level security, evaluating expressions before or after method execution."
+  },
+  {
+    "front": "What do @Secured and @RolesAllowed annotations do?",
+    "back": "Specify roles required to execute methods."
+  }
+]

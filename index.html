@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Flashcards</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    #card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      min-height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+    }
+
+    button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    #backText {
+      display: none;
+      /* hidden by default */
+      margin-top: 1em;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Flashcards</h1>
+
+  <div id="card">
+    <div id="frontText">Loading...</div>
+    <div id="backText"></div>
+  </div>
+
+  <div>
+    <button id="showBtn" style="display: none;">Show</button>
+    <button id="continueBtn" style="display: none;">Continue</button>
+  </div>
+
+  <!-- Link to external JS file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
